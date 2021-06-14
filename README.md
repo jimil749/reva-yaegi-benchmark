@@ -1,5 +1,17 @@
 # Yaegi Benchmark for Reva
 
+# How to run the benchmarks?
+
+1. First, get the plugin code:
+```
+go get github.com/jimil749/reva-yaegi-benchmark
+```
+This will get the following code in your $GOPATH. It is **important**, that you have this code in your GOPATH because yaegi searches for plugins in GOPATH.
+
+2. That's it, after fetching the plugin code (this repo) in your go path, you can run benchmarks, which are located [here](https://github.com/jimil749/reva-plugin-benchmark)
+
+**Note**: If you get an import error, make sure you add the correct GOPATH in [here](https://github.com/jimil749/reva-plugin-benchmark/blob/main/main_test.go#L32)
+
 # Benchmarks
 
 ```
