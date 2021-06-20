@@ -14,6 +14,14 @@ This will get the following code in your $GOPATH. It is **important**, that you 
 
 # Benchmarks
 
+| Method Name                       | Operations  | ns/op       |
+| -------------------------- |:-----------:| -----------:|
+| GetUser()                  | 294484       | 3920 ns/op |
+| GetUserByClaim()           | 275185       | 4348 ns/op |
+| GetUserGroups()            | 207049       | 5597 ns/op |
+| FindUser()                 | 41671      | 28621 ns/op |
+
+
 ```
 goos: linux
 goarch: amd64
